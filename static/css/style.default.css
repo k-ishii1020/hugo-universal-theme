@@ -144,6 +144,7 @@ div.section {
 .icon.icon-lg {
   font-size: 30px;
   border-width: 2px;
+  display: none;
 }
 .ul-icons {
   padding-left: 10px;
@@ -1790,7 +1791,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .bar.background-image-fixed-2 {
   background: url('../img/fixed-background-2.jpg') center top no-repeat;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-size: cover;
 }
 .bar.color-white h1,
